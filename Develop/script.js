@@ -141,7 +141,7 @@ function pwdOptions() {
 // generate password function
 function generatePassword() {
   //variable for the password options
-
+  // Variables == Num - char - upperAlpha - lowerAlpha
   var options = pwdOptions();
   console.log(options);
 
@@ -194,6 +194,7 @@ function generatePassword() {
   // updated password joins all password variables and creates a string
   var updatedPwd = finishedPwd.join("");
   console.log(updatedPwd);
+
   return updatedPwd;
 }
 // password variable for print to text input
