@@ -1,7 +1,7 @@
 // Arrays for Number variables
-let num = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+var num = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 // Arrays for character variables
-let char = [
+var char = [
   "!",
   "@",
   "#",
@@ -31,7 +31,7 @@ let char = [
   "|",
 ];
 // array for Uppercase Variables
-let upperAlpha = [
+var upperAlpha = [
   "A",
   "B",
   "C",
@@ -60,7 +60,7 @@ let upperAlpha = [
   "Z",
 ];
 // Arrays for lowerCase Variables
-let lowerAlpha = [
+var lowerAlpha = [
   "a",
   "b",
   "c",
