@@ -194,6 +194,7 @@ function generatePassword() {
   // updated password joins all password variables and creates a string
   var updatedPwd = finishedPwd.join("");
   console.log(updatedPwd);
+  return updatedPwd;
 }
 // password variable for print to text input
 var password = "";
