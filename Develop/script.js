@@ -1,93 +1,11 @@
 // Arrays for Number variables
 var num = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 // Arrays for character variables
-var char = [
-  "!",
-  "@",
-  "#",
-  "$",
-  "%",
-  "^",
-  "&",
-  "*",
-  "(",
-  ")",
-  ",",
-  "-",
-  "=",
-  "+",
-  "[",
-  "]",
-  "{",
-  "}",
-  ";",
-  ":",
-  "'",
-  "/",
-  "?",
-  "<",
-  ">",
-  ".",
-  "|",
-];
+var char = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", ",", "-", "=", "+", "[", "]", "{", "}", ";", ":", "'", "/", "?", "<", ">", ".", "|"];
 // array for Uppercase Variables
-var upperAlpha = [
-  "A",
-  "B",
-  "C",
-  "D",
-  "E",
-  "F",
-  "G",
-  "H",
-  "I",
-  "J",
-  "K",
-  "L",
-  "M",
-  "N",
-  "O",
-  "P",
-  "Q",
-  "R",
-  "S",
-  "T",
-  "U",
-  "V",
-  "W",
-  "X",
-  "Y",
-  "Z",
-];
+var upperCase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
 // Arrays for lowerCase Variables
-var lowerAlpha = [
-  "a",
-  "b",
-  "c",
-  "d",
-  "e",
-  "f",
-  "g",
-  "h",
-  "i",
-  "j",
-  "k",
-  "l",
-  "m",
-  "n",
-  "o",
-  "p",
-  "q",
-  "r",
-  "s",
-  "t",
-  "u",
-  "v",
-  "w",
-  "x",
-  "y",
-  "z",
-];
+var lowerCase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "w", "x", "y", "z"];
 
 // Create a password Options function that asks user for password option / inputs
 function pwdOptions() {
@@ -130,8 +48,8 @@ function pwdOptions() {
     length: length,
     specChar: chooseCharacters,
     numeric: chooseNumbers,
-    lowercase: chooseLowercase,
-    uppercase: chooseUppercase,
+    lowerCase: chooseLowercase,
+    upperCase: chooseUppercase,
   };
 
   // return the password inputs
@@ -164,17 +82,17 @@ function generatePassword() {
     }
   }
 
-  if (options.lowerAlpha) {
+  if (options.lowerCase) {
     // if user chooses lowercase, add lowercase letters within the bounds of the character amount.
-    for (i = 0; i < lowerAlpha.length; i++) {
-      passwordPlaceHolder.push(lowerAlpha[i]);
+    for (i = 0; i < lowerCase.length; i++) {
+      passwordPlaceHolder.push(lowerCase[i]);
     }
   }
 
-  if (options.upperAlpha) {
+  if (options.upperCase) {
     // if user chooses uppercase letters, add uppercase letters within the bounds of the character amount.
-    for (i = 0; i < upperAlpha.length; i++) {
-      passwordPlaceHolder.push(upperAlpha[i]);
+    for (i = 0; i < upperCase.length; i++) {
+      passwordPlaceHolder.push(upperCase[i]);
     }
   }
   // create a variable for a the finished password array
