@@ -27,3 +27,8 @@ THEN the password is either displayed in an alert or written to the page
 * The password is then printed onto the screen for user to copy and paste 
 * User is able to input different combinations of variables to receive different password variations
 * JavaScript is clean, concise and easy to understand 
+
+
+/Users/emilykay/Desktop/Screen Shot 2020-09-29 at 7.31.41 PM.png
+/Users/emilykay/Desktop/Screen Shot 2020-09-29 at 7.31.30 PM.png
+/Users/emilykay/Desktop/Screen Shot 2020-09-29 at 7.31.23 PM.png
