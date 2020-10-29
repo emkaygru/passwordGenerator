@@ -30,3 +30,12 @@ THEN the password is either displayed in an alert or written to the page
 * User is able to input different combinations of variables to receive different password variations
 * JavaScript is clean, concise and easy to understand 
 
+
+
+
+[assets](file:///Users/emilykay/workspace/passwordGenerator/assets)
+[image:018AD7BE-69A3-402B-A1F0-73251B7C8E39-7739-000009406CAAC4D2/prompt.png]
+[image:3B792A1F-9A07-475C-B216-B6B1DD2D802A-7739-000009406CD87BB9/pwd.png]
+
+
+
