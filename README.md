@@ -33,10 +33,4 @@ THEN the password is either displayed in an alert or written to the page
 
 
 
-[assets](file:///Users/emilykay/workspace/passwordGenerator/assets)
-[image:018AD7BE-69A3-402B-A1F0-73251B7C8E39-7739-000009406CAAC4D2/prompt.png]
-[image:3B792A1F-9A07-475C-B216-B6B1DD2D802A-7739-000009406CD87BB9/pwd.png]
-
-
-
 
