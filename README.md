@@ -30,7 +30,8 @@ THEN the password is either displayed in an alert or written to the page
 * User is able to input different combinations of variables to receive different password variations
 * JavaScript is clean, concise and easy to understand 
 
-
+![Prompts](/assets/prompt.png)
+![Password](/assets/pwd.png)
 
 
 
