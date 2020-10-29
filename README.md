@@ -1,6 +1,8 @@
 # passwordGenerator
 Homework #3 Password Generator for MSU Web Dev bootcamp
 
+Link to deployed application: [Password Generator](https://emkaygru.github.io/passwordGenerator/) 
+
 ```
 GIVEN I need a new, secure password
 WHEN I click the button to generate a password
